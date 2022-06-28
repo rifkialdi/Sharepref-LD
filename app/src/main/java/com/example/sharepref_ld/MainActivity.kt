@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    /* Untuk mengecek apakah user sudah pernah login ? */
     override fun onStart() {
         super.onStart()
         if (sharepref.getBoolean(Constant.PREF_IS_LOGIN)) {
